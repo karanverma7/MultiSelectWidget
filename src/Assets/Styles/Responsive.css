@@ -1,0 +1,18 @@
+@media only screen and (max-width: 800px){
+    #app img {
+        margin: 0 100px;
+        transform: rotate(90deg) translate(25px);
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #widget #container {
+        width: 300px;
+    }
+
+    #app img {
+        transform: rotate(90deg) translate(8px);
+    }
+}
+
+

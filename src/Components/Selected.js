@@ -18,11 +18,14 @@ const Selected = ({title, control, clear, selectedList, setClear, setFlag}) => {
     })
     return(
         <div id="widget">
-            <p>{title} <span id="control"
-            onClick={() => {
-                setFlag(false);
-                setClear(selectedList);
-            }}>{control}</span></p>
+            <p>{title}
+                <span id="control"
+                    onClick={() => {
+                        setFlag(false);
+                        setClear(selectedList);
+                    }}
+                >{control}</span>
+            </p>
             <div id="container" style={{backgroundColor: 'rgba(227, 237, 255, 0.877)'}}>
                 {newList}
             </div>
