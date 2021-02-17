@@ -1,10 +1,10 @@
 # Multi-select Form Widget
 
 Multi Select Form Widget made in ReactJS.
-Select 1 or more items from the available list and move to seleted list.
+Select 1 or more items from the available list and move to selected list.
 Remove feature is also there to move 1 or more items from the selected list.
 Removed item gets populated in the available list.
-Customisable and list can also be populated with API data.
+Customizable and list can also be populated with API data.
 
 Widget is deployed on netlify for demo.
 Visit via link: https://formwidget-by-karanverma.netlify.app/
